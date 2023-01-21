@@ -29,10 +29,13 @@ public class Game implements Listener {
     for (Player player : Bukkit.getOnlinePlayers()) {
       player.setHealth(20);
       player.setLevel(0);
-      player.setSaturation(20);
+      player.setFoodLevel(20);
       player.getInventory().clear();
       player.setGameMode(GameMode.SURVIVAL);
     }
+
+    World world = Bukkit.getWorld("world");
+    world.setTime(1000);
 
     Bukkit.getServer().getPluginManager().registerEvents(this, plugin);
     refreshScoreboard();
