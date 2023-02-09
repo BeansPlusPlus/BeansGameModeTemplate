@@ -2,9 +2,7 @@ main: beansplusplus.TemplatePlugin
 name: TemplatePlugin
 version: 1
 api-version: 1.19
+depend:
+  - BeansGamePlugin
 description: >
-  Speedrunner vs hunter type game
-commands:
-  start:
-    description: >
-      Begin game
+  Example game
