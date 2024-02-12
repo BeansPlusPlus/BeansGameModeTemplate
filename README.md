@@ -11,4 +11,4 @@ GITHUB_TOKEN = <Your generation personal access token>
 
 A jar can be created by running `./gradlew jar`
 
-TODO: The github secret `StorageSAS` must be set in order to push the jar plugin on push to main branch.
+TODO: The github secret `StorageSAS` must be set in order to push the jar plugin on push to main branch. 
